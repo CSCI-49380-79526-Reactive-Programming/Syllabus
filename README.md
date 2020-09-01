@@ -1,34 +1,8 @@
-# CSCI 46000/79521: Advanced Programming Languages
+# CSCI 49380/79526: Fundamentals of Reactive Programming Seminar
+
 3 hrs, 3 credits. Department of Computer Science, Hunter College, City University of New York.
 
 ## Table of Contents
-
-   * [CSCI 46000/79521: Advanced Programming Languages](#csci-4600079521-advanced-programming-languages)
-      * [Details](#details)
-      * [Course Description](#course-description)
-      * [Outline and Schedule of Course Topics](#outline-and-schedule-of-course-topics)
-      * [Prerequisites](#prerequisites)
-      * [<a href="https://hunter.textbookx.com/institutional/index.php?action=browse#books/1982951" rel="nofollow">Textbooks</a>](#textbooks)
-      * [Grading](#grading)
-      * [Key Dates](#key-dates)
-      * [Homework](#homework)
-         * [Notes](#notes)
-      * [Exams](#exams)
-      * [Attendance](#attendance)
-      * [Academic Violations](#academic-violations)
-      * [Discussion and Q&amp;A](#discussion-and-qa)
-      * [Email](#email)
-      * [Bulletin Board](#bulletin-board)
-      * [Computer Science Facilities &amp; Labs](#computer-science-facilities--labs)
-      * [Counseling &amp; Wellness Services](#counseling--wellness-services)
-      * [Special Needs](#special-needs)
-      * [ADA Compliance](#ada-compliance)
-      * [Family Educational Rights and Privacy Act (FERPA)](#family-educational-rights-and-privacy-act-ferpa)
-      * [Sexual Misconduct](#sexual-misconduct)
-      * [Syllabus Change Policy](#syllabus-change-policy)
-      * [Instructor Biography](#instructor-biography)
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ## Details 
 
@@ -38,72 +12,88 @@ Field | Value
 **Office:** | 1090H Hunter North Building
 **Email:** | [raffi.khatchadourian@hunter.cuny.edu](mailto:raffi.khatchadourian@hunter.cuny.edu)
 **Phone:** | (212) 650-3988
-**Office hours:** | Th 3:00-5:00 pm or [by appointment](http://khatchad.commons.gc.cuny.edu/teaching/appointments)
-**Semester:** | Spring 2019
-**Section:** | CSCI 46000/79521-01
+**Semester:** | Fall 2020
+**Section:** | CSCI 49380/79526-01
 **Grader:** | [Yiming Tang](mailto:ytang3@gradcenter.cuny.edu)
-**Grader office hours:** | [By appointment](https://khatchad.setmore.com/resourcebookingpage/r5cc21551300133063)
 
 ## Course Description
 
-This course is intended to be a survey on the fundamental concepts and principles that underlie current and emerging methods, tools, and techniques for the design and implementation of modern programming languages. This includes the understanding and appreciation of topics in designing and implementing modern programming languages such as attribute grammars, operational, axiomatic, and denotational semantics, (static and dynamic) type systems, and functional programming and its relationship with mainstream Object-Oriented languages, frameworks, and libraries (APIs).
+This is a seminar course on the fundamentals of reactive programming. Reactive programming is a declarative programming paradigm concerned with data streams and the propagation of change. With this paradigm, it is possible to express static (e.g., arrays) or dynamic (e.g., event emitters) data streams with ease. Also, you may communicate that an inferred dependency within the associated execution model exists, which facilitates the automatic propagation of the changed data flow.[^wikipedia] 
+
+In essence, reactive programming is a [development model structured around _asynchronous data streams_](https://developers.redhat.com/blog/2017/06/30/5-things-to-know-about-reactive-programming/). In this course, we will dive into the fundamentals of reactive programming. The first part will be a hands-on, practical introduction to reactive programming, including its features, common usages, advantages, and drawbacks. In the second part, since this is a seminar-style class, we will explore research topics surrounding reactive programming, including how to improve it, adopt it in existing systems, and other open problems.
 
 ## Outline and Schedule of Course Topics
 
-Please note that this schedule is tentative and is meant to serve only as a guide:
+Possible course topics are as follows:
 
-- Attribute grammars 
-- Operational semantics for Lisp
-- Operational semantics for an imperative language	
-- Axiomatic semantics
-- Type systems
-- Concurrency and data structures for concurrent and distributed computing
-- MapReduce and Streaming APIs for mainstream Object-Oriented languages
+-   Functional programming overview/recap.
+-   Asynchronous programming.
+-   The actor programming model.
+-   Eventual consistency.
+-   Stream processing.
+-   MapReduce and streaming APIs for mainstream Object-Oriented languages.
+-   Failure handling and processing rate.
+-   Current research on reactive programming.
+-   Open programs involving reactive programming.
+
+## Learning Objectives
+
+The learning objectives include techniques for designing and implementing scalable, resilient, responsive, and highly-concurrent systems correctly and efficiently using high-level abstractions. You will learn how to:
+
+-   Effectively build asynchronous computations.
+-   Develop concurrent systems using Actors.
+-   Understand the characteristics that make systems resilient to failures yet scalable.
+-   Deal with infinite and finite data streams.
+-   Understand how back-pressure can affect data and control flow.
+
+By also understanding the research surrounding this area, we also hope to begin a research project to improve the state-of-the-art of reactive programming that involves the entire class.
 
 ## Prerequisites
 
-- CSCI 26500: Computer Theory or equivalent.
 - CSCI 33500: Software Analysis and Design III or equivalent.
 
-## [Textbooks and Materials](https://hunter.textbookx.com/institutional/index.php?action=browse#books/1982951)
+Students are highly advised to be well-versed with at least one high-level programming language. Although prior knowledge of functional programming is helpful, it will be reviewed early in the course.
 
-While there are no required texts, there are readings from the books listed below. The books without links have been requested from the main campus library as reserves. I will let you know when they become available:
+## [Textbooks and Materials](https://hunter.textbookx.com/institutional/?action=browse#books/2414215)
 
-Title | Author | ISBN
--- | -- | --
-[Formal Specification of Programming Languages: A Panoramic Primer](https://onesearch.cuny.edu/primo-explore/fulldisplay?docid=CUNY_ALEPH001651241&context=L&vid=hc&search_scope=everything&tab=default_tab&lang=en_US) (copy of a [few pages](http://web.cse.ohio-state.edu/~soundarajan.1/courses/6341/pagan.pdf)) | Pagan | 9780133290523
-[Formal Syntax and Semantics of Programming Languages](http://www.divms.uiowa.edu/~slonnegr/plf/Book) | Slonneger and Kurtz | 9780201656978
-The Formal Semantics of Programming Languages: An Introduction | Winskel | 9780262231695
-The Study of Programming Languages | Stansifer | 9780137269365
-[Types and Programming Languages](https://onesearch.cuny.edu/primo-explore/fulldisplay?docid=TN_pq_ebook_centralEBC3338823&context=PC&vid=hc&search_scope=everything&tab=default_tab&lang=en_US) | Pierce | 9780262162098
-[Lisp 1.5 Programmer's Manual](http://www.softwarepreservation.org/projects/LISP/book/LISP%201.5%20Programmers%20Manual.pdf) | McCarthy et al. | 9780262130110
-[Semantics with Applications: A Formal Introduction](http://www.cs.kun.nl/~hubbers/courses/sc_1718/materiaal/wiley.pdf) | Nielson and Nielson | 9780471929802
-[Java SE8 for the Really Impatient](https://doc.lagout.org/programmation/Java/Java%20SE%208%20for%20the%20Really%20Impatient%20%5BHorstmann%202014-01-24%5D.pdf) | Horstmann | 9780321927767
-[Structure and Interpretation of Computer Programs](https://web.mit.edu/alexmv/6.037/sicp.pdf) | Sussman and Abelson | 9780070004849
-
-Please also refer to [my notes on type constraints][type constraints].
+Title | Author | ISBN | Type
+-- | -- | -- | --
+[Scala for the Impatient](https://cuny-hc.primo.exlibrisgroup.com/permalink/01CUNY_HC/1veum9a/alma990091172670106133) | Horstmann | 978-0134540566 | Required
+[Scala reactive programming: build scalable, functional reactive microservices with Akka, Play, and Lagom](https://cuny-hc.primo.exlibrisgroup.com/permalink/01CUNY_HC/1veum9a/alma991027548145006121) | Posa | 978-1787288645 | Optional
 
 ## Grading
 
 Category | Percentage
 -------- | ----------
-Assignments | 20%
-Project | 25%
+Assignments | 25%
+Project | 50%
+Presentation | 20%
 Participation | 5%
-Midterm Exam | 25%
-Final Exam | 25%
 
 ## Key Dates
 
 Event | Date
 ----- | ----
-Midterm Exam | March 27
-Withdrawal Deadline | April 1
-Final Exam | May 22 5:20-7:20 pm
+Withdrawal Deadline | Dec 13
+Final Exam | Dec 15 5:45-7:45 pm
 
-## Homework
+## Organization
 
-The course will include several written assignments and one large programming project, possibly submitted in pieces. Each will be assigned in Blackboard along with submission instructions. Assignments will be uploaded to Blackboard and the programming project will be uploaded to GitHub classroom and submitted via gradescope. The exact instructions will follow. The project must include command-line instructions on how to run the program.
+### Lectures
+
+In the first part of the course, I will lecture on fundamental topics of reactive programming with the goals of establishing background for the homework and projects. No previous knowledge of reactive or functional programming is expected. 
+
+### Homework
+
+There will be several homework assignments targeting technical problems related to the material discussed in class. The goal of these assignments is to strengthen the students’ technical skills and insights. Each will be assigned in Blackboard along with submission instructions. Assignments will be uploaded to Blackboard and the programming project will be uploaded to GitHub classroom and submitted via gradescope. The exact instructions will follow. The project must include command-line instructions on how to run the program if applicable.
+
+### Project
+
+There may be multiple projects, either individual or class-wide, depending on the outcome of the class. If no class-wide project emerges from the class discussion and talks, then students may choose an individual project from a list provided by the instructor. For more advanced students, a customized project related to their ongoing research may be chosen with instructor approval and consultation.
+
+### Presentation
+
+In the second part of the course, students will be required to briefly present a research paper on reactive programming. I will provide a list of papers from which students may choose. Students may lobby the instructor if there is an unlisted paper of the students' interest.
 
 ### Notes
 
@@ -111,13 +101,6 @@ The course will include several written assignments and one large programming pr
 - **Late assignments will be penalized.**
 - No extensions will be given for extra credit assignments.
 - Assignments are the result of **individual effort** unless otherwise noted (e.g., group projects).
-
-## Exams
-
-Test make-ups will be given if and only if:
-
-- the request is made sufficiently in advance of the test, and
-- the make-up is scheduled prior to the next class.
 
 ## Attendance
 
@@ -127,19 +110,14 @@ Attendance is expected for *each and every class* meeting. Each student is allow
 
 Hunter College regards acts of academic dishonesty (e.g., plagiarism, cheating on examinations, obtaining unfair advantage, and falsification of records and official documents) as serious offenses against the values of intellectual honesty. The college is committed to enforcing the CUNY Policy on Academic Integrity and will pursue cases of academic dishonesty according to the Hunter College Academic Integrity Procedures. Special attention is given to CONTRACT CHEATING (this is where students have work completed on their behalf which is then submitted for academic credit).
 
-## Discussion and Q&A
-
-This term we will be using [Piazza](http://piazza.com/hunter.cuny) for class discussion. The system is highly catered to getting you help fast and efficiently from classmates and myself. Rather than emailing questions to me, I encourage you to post your questions on Piazza. If you have any problems or feedback for the developers, please [email them](mailto:team@piazza.com).
-
-Find our class page [here](http://piazza.com/hunter.cuny/spring2019/csci4600079521/home) and [sign up](https://piazza.com/hunter.cuny/spring2019/csci4600079521) for the forum.
 
 ## Email
 
-Emails to the instructor must be via a CUNY email addresses for FERPA reasons. Please post all class-related discussion on Piazza. Also, please ensure that your *correct* email address is entered into the CUNY Blackboard.
+Emails to the instructor must be via a CUNY Hunter College email addresses for FERPA reasons. Please post all class-related discussion on the Bb discussion board. Also, please ensure that your *correct* email address is entered into the CUNY Blackboard.
 
 ## Bulletin Board
 
-You should check the [Blackboard](http://bbhosted.cuny.edu) site regularly, since all class material will be posted there. Please make sure you have configured Bb to use your *CUNY email address*. You are responsible for any email the instructors might send there.
+You should check the [Blackboard](http://bbhosted.cuny.edu) (Bb) site regularly, since all class material will be posted there. Please make sure you have configured Bb to use your *CUNY Hunter College email address*. You are responsible for any email the instructors might send there.
 
 ## Computer Science Facilities & Labs 
 
@@ -195,9 +173,6 @@ a. Sexual Violence: Students are strongly encouraged to immediately report the i
 
 b. All Other Forms of Sexual Misconduct: Students are also encouraged to contact the College's Title IX Campus Coordinator, Dean John Rose (jtrose@hunter.cuny.edu or 212-650-3262) or Colleen Barry (colleen.barry@hunter.cuny.edu or 212-772-4534) and seek complimentary services through the Counseling and Wellness Services Office, Hunter East 1123. CUNY Policy on Sexual Misconduct Link: http://www.cuny.edu/about/administration/offices/la/Policy-on-Sexual-Misconduct-12-1-14-with-links.pdf
 
-## Syllabus Change Policy
-
-Except for changes that substantially affect implementation of the evaluation (grading) statement, this syllabus is a guide for the course and is subject to change with advance notice. Students will find out about changes to the syllabus via class attendance.
 
 ## Instructor Biography
 
@@ -205,6 +180,7 @@ Raffi Khatchadourian is an Assistant Professor in the Computer Science Departmen
 
 ## Credits
 
-Portions of this syllabus are based on those of Atanas Rountev, Neelam Soundarajan, Mike Bond, and Subash Shankar.
+Portions of this syllabus are based on those of Atanas Rountev's and Neelam Soundarajan's seminar courses at Ohio State University.
 
 [type constraints]: https://www.slideshare.net/khatchad/a-brief-introduction-to-type-constraints
+[^wikipedia]: https://en.wikipedia.org/wiki/Reactive_programming
