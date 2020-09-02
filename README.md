@@ -48,7 +48,7 @@ Field | Value
 
 ## Course Description
 
-This is a seminar course on the fundamentals of reactive programming. Reactive programming is a declarative programming paradigm concerned with data streams and the propagation of change. With this paradigm, it is possible to express static (e.g., arrays) or dynamic (e.g., event emitters) data streams with ease. Also, you may communicate that an inferred dependency within the associated execution model exists, which facilitates the automatic propagation of the changed data flow.[^wikipedia] 
+This is a seminar course on the fundamentals of reactive programming. Reactive programming is a declarative programming paradigm concerned with data streams and the propagation of change. With this paradigm, it is possible to express static (e.g., arrays) or dynamic (e.g., event emitters) data streams with ease. Also, you may communicate that an inferred dependency within the associated execution model exists, which facilitates the automatic propagation of the changed data flow.[^wikipedia]
 
 In essence, reactive programming is a [development model structured around _asynchronous data streams_](https://developers.redhat.com/blog/2017/06/30/5-things-to-know-about-reactive-programming/). In this course, we will dive into the fundamentals of reactive programming. The first part will be a hands-on, practical introduction to reactive programming, including its features, common usages, advantages, and drawbacks. In the second part, since this is a seminar-style class, we will explore research topics surrounding reactive programming, including how to improve it, adopt it in existing systems, and other open problems.
 
