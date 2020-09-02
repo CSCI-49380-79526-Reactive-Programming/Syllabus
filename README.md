@@ -9,7 +9,7 @@
   * [Outline and Schedule of Course Topics](#outline-and-schedule-of-course-topics)
   * [Learning Objectives](#learning-objectives)
   * [Prerequisites](#prerequisites)
-  * [<a href="https://hunter.textbookx.com/institutional/?action=browse#books/2414215" rel="nofollow">Textbooks and Materials</a>](#textbooks-and-materials)
+  * [Textbooks and Materials](#textbooks-and-materials)
   * [Grading](#grading)
   * [Key Dates](#key-dates)
   * [Organization](#organization)
