@@ -214,4 +214,4 @@ Portions of this syllabus are based on those of Atanas Rountev's and Neelam Soun
 
 [type constraints]: https://www.slideshare.net/khatchad/a-brief-introduction-to-type-constraints
 [^wikipedia]: https://en.wikipedia.org/wiki/Reactive_programming
-[office hour]: https://huntercollege.zoom.us/my/khatchad
+[office hour]: https://huntercollege.zoom.us/j/91567295027
