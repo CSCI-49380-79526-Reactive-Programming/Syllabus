@@ -41,6 +41,7 @@ Field | Value
 **Office:** | 1090H Hunter North Building
 **Email:** | [raffi.khatchadourian@hunter.cuny.edu](mailto:raffi.khatchadourian@hunter.cuny.edu)
 **Phone:** | (212) 650-3988
+**Virtual office hours:** | [TF 3:00-4:00 pm][office hour] or [by appointment](http://khatchad.commons.gc.cuny.edu/teaching/appointments)
 **Semester:** | Fall 2020
 **Section:** | CSCI 49380/79526-01
 **Grader:** | [Yiming Tang](mailto:ytang3@gradcenter.cuny.edu)
@@ -213,3 +214,4 @@ Portions of this syllabus are based on those of Atanas Rountev's and Neelam Soun
 
 [type constraints]: https://www.slideshare.net/khatchad/a-brief-introduction-to-type-constraints
 [^wikipedia]: https://en.wikipedia.org/wiki/Reactive_programming
+[office hour]: https://huntercollege.zoom.us/my/khatchad
