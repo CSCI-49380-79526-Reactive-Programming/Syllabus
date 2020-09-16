@@ -115,7 +115,7 @@ In the first part of the course, I will lecture on fundamental topics of reactiv
 
 ### Homework
 
-There will be several homework assignments targeting technical problems related to the material discussed in class. The goal of these assignments is to strengthen the students’ technical skills and insights. Each will be assigned in Blackboard along with submission instructions. Assignments will be uploaded to Blackboard and the programming project will be uploaded to GitHub classroom and submitted via gradescope. The exact instructions will follow. The project must include command-line instructions on how to run the program if applicable.
+There will be several homework assignments targeting technical problems related to the material discussed in class. The goal of these assignments is to strengthen the students’ technical skills and insights. Each will be assigned in Blackboard along with submission instructions. Written assignments will be uploaded to Blackboard, and programming assignments—if assigned—will be uploaded to GitHub classroom and submitted via gradescope. The exact instructions will follow. Programming assignments must include command-line instructions on how to run the program if applicable.
 
 ### Project
 
