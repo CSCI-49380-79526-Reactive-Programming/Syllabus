@@ -89,7 +89,7 @@ Students are highly advised to be well-versed with at least one high-level progr
 Title | Author | ISBN | Type
 -- | -- | -- | --
 [Scala for the Impatient](https://cuny-hc.primo.exlibrisgroup.com/permalink/01CUNY_HC/1veum9a/alma990091172670106133) | Horstmann | 978-0134540566 | Required
-[Scala reactive programming: build scalable, functional reactive microservices with Akka, Play, and Lagom](https://cuny-hc.primo.exlibrisgroup.com/permalink/01CUNY_HC/1veum9a/alma991027548145006121) | Posa | 978-1787288645 | Optional
+[Scala reactive programming: build scalable, functional reactive microservices with Akka, Play, and Lagom](https://cuny-hc.primo.exlibrisgroup.com/permalink/01CUNY_HC/1veum9a/alma991027548145006121) | Posa | 978-1787288645 | Recommended
 
 ## Grading
 
