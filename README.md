@@ -210,7 +210,7 @@ Raffi Khatchadourian is an Assistant Professor in the Computer Science Departmen
 
 ## Credits
 
-Portions of this syllabus are based on those of Atanas Rountev's and Neelam Soundarajan's seminar courses at Ohio State University.
+Portions of this syllabus are based on those of Atanas Rountev's and Neelam Soundarajan's seminar courses at Ohio State University, as well as the edX [Programming Reactive Systems course](https://www.edx.org/course/programming-reactive-systems).
 
 [type constraints]: https://www.slideshare.net/khatchad/a-brief-introduction-to-type-constraints
 [^wikipedia]: https://en.wikipedia.org/wiki/Reactive_programming
