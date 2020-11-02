@@ -82,7 +82,7 @@ By also understanding the research surrounding this area, we also hope to begin 
 
 - CSCI 33500: Software Analysis and Design III or equivalent.
 
-Students are highly advised to be well-versed with at least one high-level programming language. Although prior knowledge of functional programming is helpful, it will be reviewed early in the course.
+Students are highly advised to be well-versed with at least one high-level, Object-Oriented programming language. Although prior knowledge of functional programming is helpful, it will be reviewed early in the course.
 
 ## [Textbooks and Materials](https://hunter.textbookx.com/institutional/?action=browse#books/2414215)
 
