@@ -65,9 +65,9 @@ Possible course topics are as follows:
 -   Current research on reactive programming.
 -   Open problems involving reactive programming.
 
-## Learning Objectives
+## Learning Targets
 
-The learning objectives include techniques for designing and implementing scalable, resilient, responsive, and highly-concurrent systems correctly and efficiently using high-level abstractions. You will learn how to:
+The learning targets include techniques for designing and implementing scalable, resilient, responsive, and highly-concurrent systems correctly and efficiently using high-level abstractions. This course aims to teach students how to:
 
 -   Effectively build asynchronous computations.
 -   Develop concurrent systems using Actors.
