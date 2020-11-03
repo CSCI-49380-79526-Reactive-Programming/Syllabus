@@ -64,7 +64,7 @@ Possible course topics are as follows:
 -   MapReduce and streaming APIs for mainstream Object-Oriented languages.
 -   Failure handling and processing rate.
 -   Current research on reactive programming.
--   Open programs involving reactive programming.
+-   Open problems involving reactive programming.
 
 ## Learning Objectives
 
