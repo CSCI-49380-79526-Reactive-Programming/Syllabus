@@ -61,7 +61,6 @@ Possible course topics are as follows:
 -   The actor programming model.
 -   Eventual consistency.
 -   Stream processing.
--   MapReduce and streaming APIs for mainstream Object-Oriented languages.
 -   Failure handling and processing rate.
 -   Current research on reactive programming.
 -   Open problems involving reactive programming.
