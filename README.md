@@ -104,7 +104,7 @@ Participation | 5%
 Event | Date
 ----- | ----
 Withdrawal Deadline | Dec 13
-Final Exam | Dec 15 5:45-7:45 pm
+Final Exam Slot | Dec 15 5:45-7:45 pm
 
 ## Organization
 
